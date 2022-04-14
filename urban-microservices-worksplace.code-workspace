@@ -4,13 +4,22 @@
 			"path": "urban-apigateway"
 		},
 		{
-			"path": "urban-contact"
-		},
-		{
 			"path": "urban-customer"
 		},
 		{
 			"path": "urban-eurekaserver"
+		},
+		{
+			"path": "urban-admin"
+		},
+		{
+			"name": "urban-provider",
+			"path": "urban-provider"
 		}
-	]
+	],
+	"settings": {
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m",
+		"java.jdt.ls.java.home":"/usr/bin/java",
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
 }

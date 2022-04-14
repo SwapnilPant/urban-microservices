@@ -1,0 +1,10 @@
+server:
+  port: 9002
+spring:
+  rabbitmq:
+    addresses: localhost:5672
+  application:
+    name: admin-service
+eureka:
+  instance:
+    hostname: localhost
